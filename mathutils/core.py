@@ -44,3 +44,4 @@ def lcm(a: Any, b: Any) -> int:
     if a == 0 or b == 0:
         return 0
     return abs(a // gcd(a, b) * b)
+# tiny change
