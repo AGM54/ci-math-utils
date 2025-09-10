@@ -9,6 +9,7 @@ def square(n: Any) -> int:
     n = _ensure_int(n)
     return n * n
 
+
 def factorial(n: Any) -> int:
     n = _ensure_int(n)
     if n < 0:
