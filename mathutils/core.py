@@ -16,7 +16,7 @@ def factorial(n: Any) -> int:
     result = 1
     for k in range(2, n + 1):
         result *= k
-    return result*2
+    return result
 
 def is_prime(n: Any) -> bool:
     n = _ensure_int(n)
