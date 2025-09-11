@@ -7,7 +7,7 @@ def _ensure_int(n: Any) -> int:
 
 def square(n: Any) -> int:
     n = _ensure_int(n)
-    return n * 2
+    return n * n
 
 def factorial(n: Any) -> int:
     n = _ensure_int(n)
